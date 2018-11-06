@@ -1,0 +1,126 @@
+a, ul , li, h1
+{
+	padding: 0;
+	margin:0;
+}
+
+body{
+ font-family: "Verdana", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ background-size: cover;
+ background-image: url(IMG/GQHzwQ0.jpg);
+ text-align: center;
+ color: black;
+ font-size: 12px;
+}
+
+#titel{
+	text-align: center;
+	padding-top:10px;
+	font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.nav{
+  background-color:darkslateblue;
+  overflow: auto;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+.nav a{
+  float: left;
+  display:block;
+  color:mediumpurple;
+  text-align:center;
+  padding:0 16px;
+  text-decoration:none;
+  font-size:17px;
+	
+	
+}
+.nav a, h1.navbar-header{
+	line-height: 65px;
+}
+.nav ul{
+  margin:0;
+  list-style:none;
+	padding: 0;
+}
+
+.nav a:hover{
+  background-color:mediumpurple;
+  color:black;
+}
+
+h1.navbar-header{
+  float: left;
+  display:block;
+  background-color:mediumpurple;
+  text-align:center;
+  padding: 0 16px;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	background: #483D8B;
+	padding: 25px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: black;
+}
+.parallax{
+	background: url(IMG/image1.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+.parallax1{
+	background: url(IMG/image2.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;	
+}
+
+.parallax-text {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.parallaxontwerp {
+	background: url(IMG/achteraanzicht.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.parallaxontwerp2{
+	background: url(IMG/vooraanzicht.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.parallaxtoekomst {
+	background: url(IMG/mercedes.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.parallaxtoekomst2{
+	background: url(IMG/achterkant.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
